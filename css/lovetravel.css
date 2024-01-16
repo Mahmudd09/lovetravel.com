@@ -11,8 +11,24 @@
   max-width: 1170px;
   margin: 0 auto;
 }
-
+.section_title {
+  font-weight: 800;
+}
+.section_des {
+  font-weight: 400;
+}
+.btn_primary {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 35px;
+  background-color: #ff5400;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 /* End global css */
+/* header */
 .header_main {
   margin: 50px 0;
 }
@@ -26,8 +42,8 @@
   align-items: center;
 }
 .site_title {
-    font-size: 36px;
-    font-weight: 800;
+  font-size: 36px;
+  font-weight: 800;
 }
 .logo_span {
   color: #ff5400;
@@ -54,3 +70,64 @@ nav li a {
 nav li a:hover {
   color: #ff5400;
 }
+/* end header */
+/* banar */
+.banar_bg {
+  background-image: url("../Images/banar_bg.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.banar_body {
+  padding: 100px 185px;
+}
+.banar_shadow {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+}
+.banar_content {
+  text-align: center;
+}
+.banar_content .section_title {
+  color: #fff;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+.banar_content .section_des {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.banar_filter {
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 16px;
+}
+form{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.bnr_input,
+.select_date,
+.select_type {
+  padding: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;  
+  font-weight: 400;
+  text-transform: capitalize;
+}
+button.btn_primary {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+/* end banar */

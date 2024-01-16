@@ -14,4 +14,20 @@
         flex-direction: column;
         justify-content: center;
       }
+      .banar_body {
+        padding: 50px 60px;
+      }
+      .banar_content .section_title {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      .banar_content .section_des {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+      form{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
 }
