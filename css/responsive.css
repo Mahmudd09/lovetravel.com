@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px) {
+    
     .header_main{
         margin: 10px 0;
     }
@@ -14,20 +15,35 @@
         flex-direction: column;
         justify-content: center;
       }
+      .banar_main,.popular_tours{
+        padding: 0 20px;
+    }
       .banar_body {
         padding: 50px 60px;
       }
       .banar_content .section_title {
-        font-size: 36px;
+        font-size: 30px;
         margin-bottom: 10px;
       }
       .banar_content .section_des {
-        font-size: 16px;
-        margin-bottom: 15px;
+        font-size: 12px;
+        margin-bottom: 10px;
       }
       form{
         display: flex;
         gap: 10px;
         flex-direction: column;
+    }
+    
+    .tours_container{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .tours_content{
+        width: 100%;
+    }
+    .tours_image{
+        width: 100%;
     }
 }

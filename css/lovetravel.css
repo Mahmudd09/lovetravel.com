@@ -131,3 +131,36 @@ button.btn_primary {
 	align-items: center;
 }
 /* end banar */
+/* popular tours */
+.popular_tours{
+    margin-top: 100px;
+}
+.tours_container{
+    display: flex;
+    gap: 50px;
+}
+.tours_content{
+    width: 50%;
+}
+.tours_content *{
+    margin-bottom: 24px;
+}
+.tours_content .section_des ,.tours_content li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+}
+.tours_content .section_title{
+    color: #131318;
+    font-size: 40px;
+}
+.tours_image{
+    width: 50%;
+}
+.tours_image img{
+    border-radius: 16px;
+    width: 100%;
+}
+.tours_content li {
+	margin-left: 20px;
+}
+/* end popular tours */
