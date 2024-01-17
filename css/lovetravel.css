@@ -298,3 +298,66 @@ button.btn_primary {
   width: 100%;
 } 
 /* end promo  */
+/* newsletter */
+.newsletter_main{
+  margin-top: 100px;
+}
+.subscribe_body {
+	display: flex;
+	gap: 24px;
+}
+.subscribe_content {
+	padding: 40px;
+}
+.subscribe_content .section_title{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+.subscribe_content .section_des{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.subscribe_content hr{
+ border-color: rgba(19, 19, 24, 0.10);
+}
+
+.subscribe_content form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 24px;
+}
+form input{
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding: 16px 20px;
+}
+form .btn_form {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 800;
+	border-radius: 8px;
+	background: #FF5400;
+	border: none;
+	padding: 16px;
+  cursor: pointer;
+}
+.subscribe_offer img{
+  border-radius: 16px;
+  width: 100%;
+}
+.subscribe_offer{
+  position: relative;
+}
+.subsoffer_rate {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/* end newsletter */
