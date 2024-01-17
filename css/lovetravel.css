@@ -173,13 +173,13 @@ button.btn_primary {
   text-align: center;
   padding: 0px 300px;
 }
-.destination_content .section_title {
+.destination_content .section_title,.testimonial_content .section_title {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 24px;
 }
-.destination_content .section_des {
+.destination_content .section_des,.testimonial_content .section_des {
   color: rgba(19, 19, 24, 0.7);
   margin-bottom: 48px;
 }
@@ -229,7 +229,7 @@ button.btn_primary {
   padding: 0 300px;
 }
 .choose_container .section_title,
-.promo_content .section_title {
+.promo_content .section_title{
   color: #131318;
   font-size: 40px;
   font-weight: 800;
@@ -364,6 +364,47 @@ form .btn_form {
 }
 
 /* end newsletter */
+/* testimonial */
+.review{
+  margin-top: 100px;
+}
+.testimonial_content{
+  margin-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonial_container {
+  padding: 20px;
+  background: rgba(19, 19, 24, 0.05);
+  border-radius: 16px;
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color: #FF5400;
+}
+
+.testimonial h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  color: #777;
+  font-size: 16px;
+}
+/* end testimonial */
 /* footer */
 .footer_main{
   text-align: center;
