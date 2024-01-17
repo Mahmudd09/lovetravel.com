@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+
+  .banar_main,.popular_tours,.destination,.choose_main,.promo{
+    padding: 0 20px;
+  }
     
     .header_main{
         margin: 10px 0;
@@ -15,9 +19,7 @@
         flex-direction: column;
         justify-content: center;
       }
-      .banar_main,.popular_tours,.destination{
-        padding: 0 20px;
-    }
+     
       .banar_body {
         padding: 50px 60px;
       }
@@ -67,5 +69,18 @@
         gap: 24px;
         grid-template-columns: repeat(1, 1fr);
       }
-
+      .choose_container {
+        text-align: center;
+        padding: 0 10px;
+      }
+      .choose_content{
+        margin-bottom: 24px;
+      }
+      .row {
+        display: block;
+      }
+      .promo_content{
+        display: flex;
+        flex-direction: column;
+      }
 }
